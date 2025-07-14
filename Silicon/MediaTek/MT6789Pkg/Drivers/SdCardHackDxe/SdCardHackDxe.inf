@@ -1,0 +1,25 @@
+[Defines]
+  INF_VERSION                    = 1.25
+  BASE_NAME                      = SdCardHackDxe
+  FILE_GUID                      = 44B2091E-1587-4B58-AD12-0211E0F61DE0
+  MODULE_TYPE                    = DXE_DRIVER
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = SdCardHackDxeEntry
+
+[Sources.common]
+  SdCardHack.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+  MediaTekPkg/MediaTekPkg.dec
+  MT6789Pkg/MT6789.dec
+
+[LibraryClasses]
+  DebugLib
+  UefiDriverEntryPoint
+
+[Protocols]
+  gMtkGpioProtocolGuid
+
+[Depex]
+  gMtkGpioProtocolGuid
