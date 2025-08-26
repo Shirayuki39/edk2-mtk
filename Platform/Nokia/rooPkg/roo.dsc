@@ -17,7 +17,7 @@
   gEmbeddedTokenSpaceGuid.PcdPrePiStackBase|0x40C00000
   gEmbeddedTokenSpaceGuid.PcdPrePiStackSize|0x00040000
   gMediaTekTokenSpaceGuid.PcdUefiMemPoolBase|0x40C50000
-  gMediaTekTokenSpaceGuid.PcdUefiMemPoolSize|0x0F3B0000
+  gMediaTekTokenSpaceGuid.PcdUefiMemPoolSize|0x07130000
 
   # Simple Framebuffer
   gMediaTekTokenSpaceGuid.PcdMipiFrameBufferWidth|736
