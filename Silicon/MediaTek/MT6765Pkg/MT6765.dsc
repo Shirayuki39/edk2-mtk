@@ -46,8 +46,3 @@
 
 [Components.common]
   MediaTekPkg/Drivers/MtkGpioDxe/MtkGpioDxe.inf
-  MediaTekPkg/Drivers/MT6357PmicDxe/MT6357PmicDxe.inf
-  EmbeddedPkg/RealTimeClockRuntimeDxe/RealTimeClockRuntimeDxe.inf {
-    <LibraryClasses>
-	  RealTimeClockLib|MediaTekPkg/Library/MT6357RtcLib/MT6357RtcLib.inf
-  }
